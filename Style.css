@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(3.jpg);
+    color: brown;
+    text-decoration: none;  
+}
+
+#namecard {
+    margin: 0px ;
+    background-image: url("NameCard_1.jpg");
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#image_1{
+    height: 80%;
+    width: 25%;
+    content: url("web-developer-portfolio.jpg") ;
+    margin-left: 45%;
+}
+
+#head_img{
+    content: url("Personal.jpg");
+    height: 60%;
+    width: 11%;
+    border-radius: 51% 49% 49% 51% / 49% 47% 53% 51% ;
+}
+
+#name_title{
+    max-width: 2000px;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(3.jpg);
+    opacity: 85%;
+    color: brown; 
+    border-radius: 35px;
+}
+
+#contact{
+    text-decoration: none;
+}
+
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+#education{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#image_2{
+    content: url(head_template.jpg);
+    height: 152px;
+    width: 150px;
+    margin-left: 10%;
+    border-radius: 30px;
+}
